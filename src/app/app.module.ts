@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BinarySearchComponent } from './components/binary-search/binary-search.component';
+import { SelectionSortComponent } from './components/selection-sort/selection-sort.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BinarySearchComponent
+    BinarySearchComponent,
+    SelectionSortComponent
   ],
   imports: [
     BrowserModule,
